@@ -4,12 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14537037037037037" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/bottom_sheet_view.xml" value="0.2353846153846154" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_check.xml" value="0.2" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_image.xml" value="0.2" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14537037037037037" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_search.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/notes_colour.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/notes_colour_1.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/notes_colour_2.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/notes_colour_3.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/notes_colour_4.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/notes_colour_5.xml" value="0.11388888888888889" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/layout/fragment_bottom_notes.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/layout/fragment_create_note.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NotesApp/app/src/main/res/layout/item_notes.xml" value="0.25" />
       </map>
     </option>
   </component>

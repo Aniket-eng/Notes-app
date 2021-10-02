@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.notesapp.dao.NoteDap
 import com.example.notesapp.entities.Notes
 import java.security.AccessControlContext
 
@@ -15,7 +16,7 @@ abstract class NotesDatabase: RoomDatabase() {
 
          @Synchronized
          fun getDatabase(context: Context): NotesDatabase{
-             if (notesDatabase!=null) {
+             if (notesDatabase==null) {
                  notesDatabase = Room.databaseBuilder(
                      context
                      , NotesDatabase ::class.java
@@ -27,6 +28,6 @@ abstract class NotesDatabase: RoomDatabase() {
          }
      }
 
-    abstract fun noteDao():NoteDao
+    abstract fun noteDap():NoteDap
 
 }
