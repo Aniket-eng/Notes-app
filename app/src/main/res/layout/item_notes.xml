@@ -45,6 +45,44 @@
             android:fontFamily="@font/manrope_regular"
             android:textColor="@color/white"
             />
+
+            <EditText
+                android:id="@+id/NoteWebLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_regular"
+                android:hint="@string/web_link"
+                android:inputType="textMultiLine"
+                android:text="http://"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imgNote" />
+
+
+            <TextView
+                android:id="@+id/tvWebLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/manrope_bold"
+                android:padding="@dimen/_10sdp"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:autoLink="web"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutWebUrl" />
+
             <TextView
                 android:id="@+id/tvDesc"
                 android:layout_width="match_parent"

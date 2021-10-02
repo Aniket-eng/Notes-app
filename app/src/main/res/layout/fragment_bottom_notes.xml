@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutBottomSheet"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    app:layout_behavior_peekHeight="40dp"
+    app:behavior_peekHeight="40dp"
     app:layout_behavior="@string/bottom_sheet_behavior"
     android:background="@color/colorPrimary"
-    tools:context=".MainActivity"
-    tools:ignore="MissingConstraints">
+    tools:context=".MainActivity">
 
     <FrameLayout
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
             android:layout_height="@dimen/_24sdp"
             android:layout_gravity="center"
             android:src="@drawable/img_bar"
-            />
+            tools:ignore="ContentDescription" />
 
     </FrameLayout>
 

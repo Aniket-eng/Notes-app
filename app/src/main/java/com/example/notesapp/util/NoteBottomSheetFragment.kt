@@ -17,13 +17,16 @@ import kotlinx.android.synthetic.main.fragment_bottom_notes.*
 class NoteBottomSheetFragment: BottomSheetDialogFragment() {
     var selectedColor = "#171C26"
     companion object {
-        fun newInstance(): NoteBottomSheetFragment{
+        var noteId = -1
+        fun newInstance(id:Int): NoteBottomSheetFragment{
             val args  = Bundle()
             val fragment = NoteBottomSheetFragment()
             fragment.arguments = args
+            noteId = id
             return fragment
         }
     }
+
 
     @SuppressLint("RestrictedApi")
     override fun setupDialog(dialog: Dialog, style: Int) {
@@ -38,6 +41,11 @@ class NoteBottomSheetFragment: BottomSheetDialogFragment() {
 
         if(behavior is BottomSheetBehavior<*>){
             behavior.setBottomSheetCallback(object : BottomSheetBehavior.BottomSheetCallback(){
+
+                override fun onSlide(bottomSheet: View, slideOffset: Float) {
+                    TODO("Not yet implemented")
+                }
+
                 override fun onStateChanged(bottomSheet: View, newState: Int) {
                     var state = ""
                     when(newState){
@@ -53,6 +61,7 @@ class NoteBottomSheetFragment: BottomSheetDialogFragment() {
                         BottomSheetBehavior.STATE_COLLAPSED -> {
                             state = "COLLAPSED"
                         }
+
                         BottomSheetBehavior.STATE_HIDDEN -> {
                             state = "HIDDEN"
                             dismiss()
@@ -61,9 +70,7 @@ class NoteBottomSheetFragment: BottomSheetDialogFragment() {
                     }
                 }
 
-                override fun onSlide(bottomSheet: View, slideOffset: Float) {
-                    TODO("Not yet implemented")
-                }
+
 
             })
 
@@ -93,6 +100,7 @@ class NoteBottomSheetFragment: BottomSheetDialogFragment() {
             imgNote_5.setImageResource(0)
             imgNote_6.setImageResource(0)
             selectedColor = "#2196F3"
+
             val intent = Intent("bottom_sheet_action")
             intent.putExtra("action","Blue")
             intent.putExtra("selectedColor",selectedColor)
@@ -124,6 +132,7 @@ class NoteBottomSheetFragment: BottomSheetDialogFragment() {
             imgNote_5.setImageResource(0)
             imgNote_6.setImageResource(0)
             selectedColor = "#ffd633"
+
             val intent = Intent("bottom_sheet_action")
             intent.putExtra("action","Yellow")
             intent.putExtra("selectedColor",selectedColor)
@@ -154,6 +163,7 @@ class NoteBottomSheetFragment: BottomSheetDialogFragment() {
             imgNote_5.setImageResource(R.drawable.ic_check)
             imgNote_6.setImageResource(0)
             selectedColor = "#7C4DFF"
+
             val intent = Intent("bottom_sheet_action")
             intent.putExtra("action","Purple")
             intent.putExtra("selectedColor",selectedColor)

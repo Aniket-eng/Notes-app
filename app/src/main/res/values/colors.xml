@@ -12,9 +12,9 @@
 
     <color name="DefaultNotes">#606570</color>
     <color name="BlueNote">#2196F3</color>
-    <color name="YellowNote">#ffd633</color>
+    <color name="YellowNote">#F1D04C</color>
     <color name="PurpleNote">#7C4DFF</color>
     <color name="WhiteNote">#ffffff</color>
-    <color name="OrangeNote">#FF6E40</color>
-    <color name="GreenNote">#B2FF59</color>
+    <color name="OrangeNote">#EC901D</color>
+    <color name="GreenNote">#A6EF50</color>
 </resources>
