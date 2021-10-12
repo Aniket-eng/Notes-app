@@ -1,10 +1,11 @@
 # Notes-app
 
 #Main Activity
-![1634010697054](https://user-images.githubusercontent.com/75306503/136888565-d3e67b54-217d-49df-9064-45d2ae0d69f2.jpg)
+![1634010697044](https://user-images.githubusercontent.com/75306503/136888990-6ae4ea63-a91e-474a-a98f-71b41e822bf3.jpg)
 
 #Create Note
-![1634010697066](https://user-images.githubusercontent.com/75306503/136888530-6085e441-7e17-493e-8191-edfd40aa553b.jpg)
+![1634010697060](https://user-images.githubusercontent.com/75306503/136889013-6f83ef80-1d63-465d-a694-99a02bc829a3.jpg)
 
 #Pick Color or add link
-![1634010697060](https://user-images.githubusercontent.com/75306503/136888533-0a27b4a2-abe7-4e55-abe2-fc07d8aca584.jpg)
+
+![1634010697054](https://user-images.githubusercontent.com/75306503/136889018-0f73719d-54b3-4e12-8049-af06dc9e54ba.jpg)
